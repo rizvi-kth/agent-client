@@ -1,0 +1,20 @@
+Sample Output 1 from API:
+=========================
+Chunk Received:
+{
+    "node":"question_categorise",
+    "message":"(internet-search-related):: What is my name?"
+}
+Chunk Received:
+{
+"node":"chatbot",
+"message":"Your name is Pol."
+}
+
+
+Sample Output 2 from API:
+=========================
+Chunk Received: {'node': 'question_categorise', 'message': '(news-related):: What is the latest news about Apple?'}
+Chunk Received: {'node': 'chatbot', 'message': 'Tool called : tavily_search_results_json'}
+Chunk Received: {'node': 'tool_node', 'message': '[{"url": "https://9to5mac.com/2025/01/03/apple-q1-2025-earnings/", "content": "2 days ago ... Apple on Friday confirmed that it will release its Q1 2025 earnings report on January 30, 2025. The report will cover iPhone 16 and Apple"}, {"url": "https://www.apple.com/newsroom/2025/01/apple-fitness-plus-unveils-an-exciting-lineup-of-new-ways-to-stay-active-in-2025/", "content": "Apple Apple Fitness+ is bringing users more ways to stay active and mindful in 2025, including new workouts, an introduction to breath meditation, and a new collaboration with Strava. Apple Fitness+ kicks off the new year with its biggest lineup of programming, bringing users more ways to stay active and mindful in 2025. Coldplay’s Artist Spotlight workout in Apple Fitness+ is shown on iPhone 16. Rita Ora’s Time to Walk episode in Apple Fitness+ is shown on iPhone 16 and Apple Watch. Apple Fitness+ kicks off the new year with its biggest lineup of programming, bringing users more ways to stay active and mindful in 2025. Apple Apple Apple Apple Apple One Apple Fitness+ Or call 1-800-MY-APPLE."}]'}
+Chunk Received: {'node': 'chatbot', 'message': 'Here are some of the latest news about Apple in January 2025:\n\n1. **Apple Q1 2025 Earnings Report**: Apple has announced that it will release its Q1 2025 earnings report on January 30, 2025. This report will cover the performance of products like the iPhone 16. [Read more](https://9to5mac.com/2025/01/03/apple-q1-2025-earnings/)\n\n2. **Apple Fitness+ New Lineup**: Apple Fitness+ is introducing new ways to stay active and mindful in 2025. This includes new workouts, breath meditation, and a collaboration with Strava. The new lineup features programming like Coldplay’s Artist Spotlight workout and Rita Ora’s Time to Walk episode, available on iPhone 16 and Apple Watch. [Read more](https://www.apple.com/newsroom/2025/01/apple-fitness-plus-unveils-an-exciting-lineup-of-new-ways-to-stay-active-in-2025/)\n\nIf you need more specific information or news about other topics, feel free to ask!'}
